@@ -236,7 +236,6 @@ class BotUI(QMainWindow):
 
         self.log_signal.connect(self.append_log)
 
-        # เชื่อมต่อปุ่มกับฟังก์ชันที่เกี่ยวข้อง
         self.start_button.clicked.connect(self.start_bot)
         self.stop_button.clicked.connect(self.stop_bot)
 
